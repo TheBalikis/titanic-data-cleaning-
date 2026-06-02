@@ -2,14 +2,14 @@
 end-to-end data cleaning project on the Titanic dataset using Microsoft Excel
 
 ## Table OF Contents
-- [Project Overview]_(#project-overview}
-- [Problem Statement]_(#problem-statement)
-- [Objective]_(#objective)
-- [Dataset Description]_(#dataset-description)
-- [Data Cleaning and Preparation)_(#datacleaningandpreparation)
-- [Challenges Encountered]_(#challenges-encountered)
-- [Continuous Data Quality Improvement]_(#continuous-data-quality-improvement)
-- [Conclusion]_(#conclusion)
+- [Project Overview](#project-overview}
+- [Problem Statement](#problem-statement)
+- [Objective](#objective)
+- [Dataset Description](#dataset-description)
+- [Data Cleaning and Preparation)(#datacleaningandpreparation)
+- [Challenges Encountered](#challenges-encountered)
+- [Continuous Data Quality Improvement](#continuous-data-quality-improvement)
+- [Conclusion](#conclusion)
 
 
 
