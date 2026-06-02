@@ -42,7 +42,7 @@ Research Question: How can a messy, real-world dataset be cleaned and organized 
 ### Dataset Description
 The dataset used in this project is the Titanic passenger dataset, obtained from Kaggle.
 It contains demographic and travel information for passengers aboard the RMS Titanic and is commonly used for data quality and preprocessing practice.
- The dataset contains 819 rows of passenger data and 12 (original) columns present (13 after cleaning, with the addition of the Cabin_Indicator column). The row count remained unchanged throughout the cleaning process to avoid data loss.
+ The dataset contains 891 rows of passenger data and 12 (original) columns present (13 after cleaning, with the addition of the Cabin_Indicator column). The row count remained unchanged throughout the cleaning process to avoid data loss.
  
     • Key Fields
 
@@ -144,6 +144,7 @@ Before and after cleaning examples:
 | 768            | 	 Moran, Mr. James ("Jimmy")     | 	Moran, James              |
 
 - Title Extraction and Standardization
+  
 Titles were extracted from raw names into a dedicated column using the following formula:
 =MID(B2, FIND(",", B2)+2, FIND(".", B2)-FIND(",", B2)-2)
 Rare or honorary titles (Col, Rev, Dr, Dona, Capt, Major, etc.) were grouped under the label "Other" to reduce cardinality and prevent sparse categorical values in downstream modeling.
@@ -159,6 +160,7 @@ Rare or honorary titles (Col, Rev, Dr, Dona, Capt, Major, etc.) were grouped und
 | Dona          |         Other        | de Messemaeker, Guillaume |
 
  - Ticket Preservation
+   
 Ticket formats were preserved because the mix of alphanumeric codes may represent boarding groups, agents, or embarkation points. Splitting or modifying these identifiers could lead to loss of contextual meaning or accidental duplication. No cleaning was applied.
 
 
